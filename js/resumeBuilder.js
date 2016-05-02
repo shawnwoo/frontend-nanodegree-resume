@@ -32,7 +32,7 @@ var bio = {
         var addingSkills = function(skills){
             skills.forEach(function(val){
             var formattedSkills = HTMLskills.replace("%data%", val);
-            $("#header").append(formattedSkills);
+            $("#skills").append(formattedSkills);
         });
         };
 
